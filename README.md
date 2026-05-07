@@ -37,14 +37,14 @@ This tool parses raw WhatsApp chat exports and performs multi-dimensional text a
 
 ## Project Structure
 
-```
 whatsapp-chat-analyser/
 │
-├── app.py                  # Streamlit app — UI layout and rendering
-├── preprocessor.py         # Chat parser — regex extraction and feature engineering
-├── helper.py               # Analytics functions — stats, NLP, visualisations
-├── requirements.txt        # Dependencies
-└── README.md
+├── __pycache__/
+├── myenv/
+├── README.md
+├── app.py
+├── helper.py
+└── preprocessor.py
 ```
 
 ---
